@@ -196,6 +196,75 @@
           </div>
         </div>
       </div>
+
+      <!-- add money -->
+      <div class="add-money">
+        <h1 class="p-5 font-bold text-black text-2xl">Add Money</h1>
+
+        <div class="">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <form class="card-body">
+                <label class="label"><span>Select a Bank</span></label>
+                <select
+                  class="select select-bordered w-full max-w-xs bg-slate-200 rounded-3xl border-none"
+                >
+                  <option disabled selected>select bank</option>
+                  <option>Bkash</option>
+                  <option>Nagad</option>
+                  <option>Rocket</option>
+                  <option>DBBL</option>
+                </select>
+
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Account Number(11digit)</span>
+                  </label>
+                  <input
+                    type="number"
+                    placeholder="Acount Number"
+                    value="01234567891"
+                    id="acount-number"
+                    class="input input-bordered text-black bg-slate-200 rounded-3xl border-none"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Amount to Add</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Acount Number"
+                    id="acount-number"
+                    class="input input-bordered text-black bg-slate-200 rounded-3xl border-none"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Pin</span>
+                  </label>
+                  <input
+                    type="password"
+                    placeholder="Pin Code"
+                    id="pin-number"
+                    class="input input-bordered text-black bg-slate-200 rounded-3xl border-none"
+                    required
+                  />
+                </div>
+                <div class="form-control mt-6">
+                  <button
+                    class="btn bg-blue-500 text-white hover:bg-black rounded-3xl border-none"
+                  >
+                    Login
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="./script/home.js"></script>
